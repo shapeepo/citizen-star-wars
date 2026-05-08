@@ -1,0 +1,21 @@
+{
+  "name": "citizen-star-wars",
+  "author": "Shapeepo",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Pebble Star Wars",
+    "uuid": "2c0cb66f-2479-4d2f-bc5e-4f6257a3a6a9",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": ["emery"],
+    "watchapp": { "watchface": true },
+    "resources": {
+      "media": [
+        { "type": "bitmap", "name": "DIAL_FACE", "file": "images/dial_face.png" }
+      ]
+    }
+  }
+}
