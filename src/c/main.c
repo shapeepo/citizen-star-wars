@@ -38,7 +38,7 @@
 // Clock center estimated from image center-hole position
 // ============================================================================
 
-#define CLOCK_CX    100
+#define CLOCK_CX     99
 #define CLOCK_CY    110
 #define DIAL_Y        0   // image is already 200x228, no vertical offset
 #define HOUR_LEN     57
@@ -46,13 +46,12 @@
 #define SEC_LEN      88
 #define SEC_TAIL     12
 // Date box: compact, centered in right triangular area (52x15px)
-// x=115-167, y=102-117 — 10px clearance from right ring at x=177
-// Baked as empty box in Python; C fills + draws text on top of hands
-#define DATE_BOX_X    115
+// x=114-166, y=102-117 — shifted 1px left with full face
+#define DATE_BOX_X    114
 #define DATE_BOX_Y    102
 #define DATE_BOX_W     52
 #define DATE_BOX_H     15
-#define DATE_DIV_X    144  // divider: left cell 28px (116-143), right 22px (145-166)
+#define DATE_DIV_X    143  // divider: left cell 28px (115-142), right 22px (144-165)
 // "PEBBLE" and "Emery" are both baked into the bitmap (no C overrides needed)
 
 // ============================================================================
