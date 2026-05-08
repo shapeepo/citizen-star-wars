@@ -14,7 +14,8 @@
     "watchapp": { "watchface": true },
     "resources": {
       "media": [
-        { "type": "bitmap", "name": "DIAL_FACE", "file": "images/dial_face.png" }
+        { "type": "bitmap", "name": "DIAL_FACE",  "file": "images/dial_face.png" },
+        { "type": "bitmap", "name": "MENU_ICON",  "file": "images/menu_icon.png", "menuIcon": true }
       ]
     }
   }
